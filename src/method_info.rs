@@ -60,7 +60,7 @@ impl MethodInfo {
             &[]
         } else {
             unsafe {
-                slice::from_raw_parts(*self.as_ref().parameters as _, self.parameters_count() as _)
+                slice::from_raw_parts(self.as_ref().parameters as _, self.parameters_count() as _)
             }
         }
     }
