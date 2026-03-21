@@ -85,7 +85,6 @@ dependencies = [
 [[package]]
 name = "il2cpp-sys-rs"
 version = "0.1.0"
-source = "git+https://github.com/agmbk/il2cpp-sys-rs?rev=549ee6dd979ac9e1a1ec37bdf678b67eea1c5fd1#549ee6dd979ac9e1a1ec37bdf678b67eea1c5fd1"
 dependencies = [
  "bindgen",
 ]

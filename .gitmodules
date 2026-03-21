@@ -1,0 +1,3 @@
+[submodule "crates/il2cpp-sys-rs"]
+	path = crates/il2cpp-sys-rs
+	url = https://github.com/il2cpp-rs/il2cpp-sys-rs.git

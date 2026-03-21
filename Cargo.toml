@@ -11,5 +11,10 @@ license = "MIT"
 keywords = ["unity", "il2cpp", "game-development"]
 categories = ["game-development", "external-ffi-bindings"]
 
+[workspace]
+members = [
+    "crates/*",
+]
+
 [dependencies]
-il2cpp-sys-rs = { git = "https://github.com/agmbk/il2cpp-sys-rs", rev = "549ee6dd979ac9e1a1ec37bdf678b67eea1c5fd1" }
+il2cpp-sys-rs = { path = "crates/il2cpp-sys-rs" }
